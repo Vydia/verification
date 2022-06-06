@@ -1,0 +1,1 @@
+# Vydia Verification Badge Script
