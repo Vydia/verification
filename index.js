@@ -232,7 +232,11 @@
     </svg>
   </div>
 `,Gt=()=>A.jsx`
-  <${A.Suspense} cache=${!0} verified=${zt} fallback=${Bt}>
+  <${A.Suspense}
+    cache=${!0}
+    verified=${zt}
+    fallback=${Bt}
+  >
     <${Dt} />
   </${A.Suspense}>
 `,$e=document.getElementById("vydia-badge");document.addEventListener("DOMContentLoaded",()=>{!$e||Lt.render(A.jsx`<${Gt} />`,$e)})});
